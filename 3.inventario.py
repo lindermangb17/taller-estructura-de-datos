@@ -38,8 +38,8 @@ def ordenarprod(productos):
     productos.sort()
     
     print("Productos ordenados alfabeticamente!!")
-    
-    print(productos)
+    for producto in productos:
+        print(producto)
     input("Presione enter para continuar")
              
 def totalprod(productos):
@@ -50,7 +50,6 @@ def totalprod(productos):
 def salir():
     print(f"Gracias por usar el inventario")
     
-
 
 productos = []
 opcion=0
